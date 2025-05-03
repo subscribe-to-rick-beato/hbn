@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const randomIndex = Math.floor(Math.random() * items.length);
             displayArea.textContent = `${items[randomIndex]}`;
             if (displayArea.textContent == "link to my album on youtube") {
-                existingLink.href = 'https://youtu.be/hMjTs_7itSE';
+                existingLink.href = 'https://youtu.be/O4NhcYQebY0';
                 existingLink.textContent = 'Secret Album';
             } 
         } else {
